@@ -76,7 +76,7 @@ Blue Forest = 小森のBlog</title>
       <i class="ic i-pen"></i>
     </span>
     <span class="text">本文字数</span>
-    <span>2k</span>
+    <span>2.7k</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="阅读时长">
@@ -117,12 +117,12 @@ Blue Forest = 小森のBlog</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://image.chinoaider.tk/img/202304101808864.webp"></li>
-          <li class="item" data-background-image="https://image.chinoaider.tk/img/202304101808829.webp"></li>
-          <li class="item" data-background-image="https://image.chinoaider.tk/img/202304101808892.webp"></li>
-          <li class="item" data-background-image="https://image.chinoaider.tk/img/202304101808901.webp"></li>
           <li class="item" data-background-image="https://image.chinoaider.tk/img/202304101808816.webp"></li>
+          <li class="item" data-background-image="https://image.chinoaider.tk/img/202304101808892.webp"></li>
+          <li class="item" data-background-image="https://image.chinoaider.tk/img/202304101807997.webp"></li>
           <li class="item" data-background-image="https://image.chinoaider.tk/img/202304101808853.webp"></li>
+          <li class="item" data-background-image="https://image.chinoaider.tk/img/202304101808829.webp"></li>
+          <li class="item" data-background-image="https://image.chinoaider.tk/img/202304101807071.webp"></li>
         </ul>
       </div>
     </header>
@@ -171,70 +171,75 @@ Blue Forest = 小森のBlog</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <div class="note info no-icon">
-<ul>
+    <div class="note primary no-icon">
+<ol>
 <li>🚀 <a href="/computer-science/hexo/document/init/">Hexo 博客基础搭建</a> 👈 当前位置	📌</li>
 <li>🌈 <a href="/computer-science/hexo/document/theme/">Hexo 博客主题更换</a></li>
-</ul>
+</ol>
 </div>
 <h1 id="准备工作"><a class="anchor" href="#准备工作">#</a> 准备工作</h1>
-<ul>
-<li>安装 <span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnLw==">Node.js</span> 环境
-<ul>
-<li>前往官网：<span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnLw==">https://nodejs.org/</span> ，教程演示为当前新版本  <code>18.15.0 LTS</code></li>
-<li>如果没有特殊要求一路 next 默认安装即可</li>
-</ul>
-</li>
-<li>注册  <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">GitHub</span> 账户
-<ul>
-<li>前往官网：<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">https://github.com/</span> ，注册账户</li>
-</ul>
-</li>
-<li>安装 <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=">Git</span> 终端
-<ul>
-<li>前往官网： <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=">https://git-scm.com/downloads</span> ，选择对应的系统文件进行下载</li>
-<li>如果没有特殊要求一路 next 默认安装即可</li>
-</ul>
-</li>
-</ul>
+<h2 id="安装-nodejs-环境"><a class="anchor" href="#安装-nodejs-环境">#</a> 安装 <span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3Jn">Node.js</span> 环境</h2>
+<p>前往官网：<span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3Jn">https://nodejs.org</span> ，教程演示为长期维护版本 <span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL2Rvd25sb2FkL3JlbGVhc2UvdjE4LjE1LjAv">v18.15.0</span> ，也可以更改地址切换所需版本，选择 msi 格式进行下载</p>
+<p><img data-src="https://image.chinoaider.tk/article/hexo/init/202304171703654.png" alt="" /></p>
+<p>如果没有特殊要求一路 next 默认安装即可，安装后默认路径  <code>C:\Program Files\nodejs</code></p>
+<h2 id="注册-github-账户"><a class="anchor" href="#注册-github-账户">#</a> 注册  <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29t">GitHub</span> 账户</h2>
+<p>前往官网：<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29t">https://github.com</span> ，注册账户</p>
+<p><img data-src="https://image.chinoaider.tk/article/hexo/init/202304171703635.png" alt="" /></p>
+<p><img data-src="https://image.chinoaider.tk/article/hexo/init/202304171703608.png" alt="" /></p>
+<p>填写邮箱 👉 输入密码 👉 输入用户名 👉 是否通过邮箱方式接收产品更新和公告 👉 人机验证 👉 创建账户</p>
+<h2 id="安装-git-终端"><a class="anchor" href="#安装-git-终端">#</a> 安装 <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbQ==">Git</span> 终端</h2>
+<p>前往官网： <span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=">https://git-scm.com/downloads</span> ，选择对应的系统文件进行下载</p>
+<p><img data-src="https://image.chinoaider.tk/article/hexo/init/202304171703721.png" alt="" /></p>
+<p><img data-src="https://image.chinoaider.tk/article/hexo/init/202304171703696.png" alt="" /></p>
+<p>如果没有特殊要求一路 next 默认安装即可，安装后默认路径  <code>C:/Program Files/Git</code></p>
 <h1 id="创建github仓库"><a class="anchor" href="#创建github仓库">#</a> 创建 GitHub 仓库</h1>
-<p>注册完  <code>GitHub</code>  账户后，点击左侧  <code>New</code>  按钮或者点击右上角  <code>+</code>  按钮 ，选择   <code>New repository</code> ，创建一个存储库，创建仓库的格式必须为： <code>&lt;用户名&gt;.github.io</code></p>
+<p>注册完  <code>GitHub</code>  账户后，点击左侧  <code>New</code>  按钮或者点击右上角  <code>+</code>  按钮 ，选择   <code>New repository</code> ，创建一个存储库</p>
+<p><img data-src="https://image.chinoaider.tk/article/hexo/init/202304171742893.png" alt="" /></p>
+<p><img data-src="https://image.chinoaider.tk/article/hexo/init/202304171742920.png" alt="" /></p>
 <ul>
+<li><code>Repository name</code> ：创建仓库的格式  <code>&lt;用户名&gt;.github.io</code></li>
 <li><code>Description (optional)</code> ：仓库描述（选填）</li>
 <li><code>Public</code>  ：互联网上的任何人都可以看到这个存储库。你选择谁能做出承诺。（选择）</li>
-<li><code>Add a README file</code>  ：在这里你可以为你的项目写一个长描述。学习更多的知识。（勾选）</li>
+<li><code>Add a README file</code>  ：在这里你可以为你的项目写一个长描述。学习更多的知识。（可选）</li>
 <li>点击  <code>Create repository</code>  进行创建</li>
 </ul>
 <h1 id="配置git"><a class="anchor" href="#配置git">#</a> 配置 Git</h1>
 <ol>
-<li>由于 npm 的服务器在国外，所以在国内下载模块时速度可能会很慢，为了解决这个问题，你可以使用国内的镜像地址来下载 npm 模块，输入以下命令</li>
+<li>有时候 npm 指令下载不动可能有多种原因，其中一种是 npm 的下载地址是国外的，导致下载很慢或者直接卡住不动，为了解决这个问题，你可以使用国内的镜像地址来下载 npm 模块，输入以下命令</li>
 </ol>
 <figure class="highlight text"><figcaption data-lang="text"></figcaption><table><tr><td data-num="1"></td><td><pre>npm install -g cnpm --registry=http://registry.npmmirror.com</pre></td></tr></table></figure><ol start="2">
-<li>检查是否安装成功</li>
+<li>检查是否安装成功，安装成功之后，把 npm 的命令换成是 cnpm 就可以了。</li>
 </ol>
-<figure class="highlight text"><figcaption data-lang="text"></figcaption><table><tr><td data-num="1"></td><td><pre>cnpm -v</pre></td></tr></table></figure><p>安装成功之后，以后安装依赖包的方式和 npm 的是一样的，只是 npm 的命令换成是 cnpm 就可以了。</p>
-<ol start="3">
-<li>查看配置文件</li>
+<figure class="highlight text"><figcaption data-lang="text"></figcaption><table><tr><td data-num="1"></td><td><pre>cnpm -v</pre></td></tr></table></figure><ol start="3">
+<li>如果想要将 npm 的下载地址转回原来的地址，可以使用以下命令</li>
 </ol>
-<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">git</span> config <span class="token parameter variable">-l</span> <span class="token comment">#可以查看用户名邮箱等信息是否正确</span></pre></td></tr></table></figure><ol start="4">
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">npm</span> config <span class="token builtin class-name">set</span> registry https://registry.npmjs.org/</pre></td></tr></table></figure><ol start="4">
+<li>常用命令</li>
+</ol>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">git</span> config <span class="token parameter variable">-l</span>  <span class="token comment">#查看所有配置</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token function">git</span> config <span class="token parameter variable">--system</span> <span class="token parameter variable">--list</span> <span class="token comment">#查看系统配置</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--list</span> <span class="token comment">#查看用户（全局）配置</span></pre></td></tr></table></figure><ol start="5">
 <li>配置用户名和邮箱</li>
 </ol>
-<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">"your username"</span> <span class="token comment">#GitHub 的用户名</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"your email"</span> <span class="token comment">#注册 GitHub 的邮箱</span></pre></td></tr></table></figure><h1 id="生成配置ssh公钥"><a class="anchor" href="#生成配置ssh公钥">#</a> 生成配置 ssh 公钥</h1>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">"your username"</span> <span class="token comment">#GitHub 的用户名</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"your email"</span> <span class="token comment">#注册 GitHub 的邮箱</span></pre></td></tr></table></figure><ol start="6">
+<li>使用  <code>git config --global --list</code>  命令来检查配置文件，查看否配置成功，输出以下内容：</li>
+</ol>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>$ <span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--list</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token assign-left variable">http.sslverify</span><span class="token operator">=</span>false</pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token assign-left variable">user.name</span><span class="token operator">=</span><span class="token string">"your username"</span> <span class="token comment">#你的设置的用户名</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token assign-left variable">user.email</span><span class="token operator">=</span><span class="token string">"your email"</span> <span class="token comment">#你设置的邮箱</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token assign-left variable">filter.lfs.clean</span><span class="token operator">=</span>git-lfs clean -- %f</pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token assign-left variable">filter.lfs.smudge</span><span class="token operator">=</span>git-lfs smudge -- %f</pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token assign-left variable">filter.lfs.process</span><span class="token operator">=</span>git-lfs filter-process</pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token assign-left variable">filter.lfs.required</span><span class="token operator">=</span>true</pre></td></tr></table></figure><h1 id="生成配置ssh公钥"><a class="anchor" href="#生成配置ssh公钥">#</a> 生成配置 ssh 公钥</h1>
 <ol>
-<li>输入以下命令生成 ssh 公钥，用于计算机与 GitHub 连接，ssh 公钥文件路径在  <code>C:\Users\username\.ssh\id_rsa.pub</code>  打开全选复制 ssh 公钥</li>
+<li>输入以下命令生成 ssh 公钥，回车后会让你设置路径和密码，也可以不设置直接回车</li>
 </ol>
-<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>ssh-key <span class="token parameter variable">-t</span> rsa <span class="token parameter variable">-C</span> <span class="token string">"your email"</span></pre></td></tr></table></figure><ol start="2">
-<li>进入 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">GitHub</span> 👉  <code>点击头像</code>   👉  选择  <code>Settings</code>   👉  选择  <code>SSH and GPG keys</code>   👉  点击  <code>New SSH key</code></li>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>ssh-key <span class="token parameter variable">-t</span> rsa <span class="token parameter variable">-C</span> <span class="token string">"your email"</span></pre></td></tr></table></figure><p>ssh 公钥文件默认路径：  <code>C:\Users\username\.ssh\id_rsa.pub</code>   ，打开全选复制</p>
+<ol start="2">
+<li>进入 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw==">GitHub</span> 👉  <code>点击头像</code>   👉  选择  <code>Settings</code>   👉  点击左侧  <code>SSH and GPG keys</code>   👉  点击  <code>New SSH key</code></li>
 </ol>
+<p><img data-src="https://image.chinoaider.tk/article/hexo/init/202304171849518.png" alt="" /></p>
 <ul>
 <li><code>Title</code> ：标题随便填</li>
 <li><code>key</code> ： 粘贴 ssh 公钥</li>
 <li>点击  <code>Add SSH key</code>  进行添加</li>
 </ul>
 <ol start="3">
-<li>输入命令测试连接</li>
+<li>使用  <code>ssh -T git@github.com</code>  命令测试连接</li>
 </ol>
-<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">ssh</span> <span class="token parameter variable">-T</span> git@github.com</pre></td></tr></table></figure><p>出现连接到账户信息，说明大功告成，至此完成准备工作。</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>$ <span class="token function">ssh</span> <span class="token parameter variable">-T</span> git@github.com</pre></td></tr><tr><td data-num="2"></td><td><pre>Hi chinoaider<span class="token operator">!</span> You've successfully authenticated, but GitHub does not provide shell access.</pre></td></tr></table></figure><p>出现连接到账户的信息，说明连接成功</p>
 <h1 id="安装初始化hexo项目"><a class="anchor" href="#安装初始化hexo项目">#</a> 安装初始化 Hexo 项目</h1>
 <ol>
 <li>打开 cmd 命令窗口，输入命令安装 hexo 脚手架</li>
@@ -261,7 +266,8 @@ Blue Forest = 小森のBlog</title>
 <figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>hexo server </pre></td></tr><tr><td data-num="2"></td><td><pre>hexo s <span class="token comment">#缩写</span></pre></td></tr></table></figure><ol start="6">
 <li>运行后出现以下信息，在浏览器地址栏输入 <span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDo0MDAwLw==">http://localhost:4000/</span> 访问本地部署的  <code>hexo</code>  项目</li>
 </ol>
-<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>INFO  Hexo is running at http://localhost:4000/ <span class="token builtin class-name">.</span> Press Ctrl+C to stop.</pre></td></tr></table></figure><p>如果显示正常说明本地部署项目成功</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>INFO  Hexo is running at http://localhost:4000/ <span class="token builtin class-name">.</span> Press Ctrl+C to stop.</pre></td></tr></table></figure><p><img data-src="https://image.chinoaider.tk/article/hexo/init/202304181722025.png" alt="" /></p>
+<p>如果显示正常说明本地部署项目成功</p>
 <h1 id="将项目挂载到github"><a class="anchor" href="#将项目挂载到github">#</a> 将项目挂载到 GitHub</h1>
 <ol>
 <li>安装部署所需依赖</li>
@@ -272,7 +278,11 @@ Blue Forest = 小森のBlog</title>
 <figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">deploy</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">type</span><span class="token punctuation">:</span> git</pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">repository</span><span class="token punctuation">:</span> git@github.com<span class="token punctuation">:</span>username/repository.github.io.git</pre></td></tr><tr><td data-num="4"></td><td><pre>  <span class="token key atrule">branch</span><span class="token punctuation">:</span> main</pre></td></tr></table></figure><ol start="3">
 <li>将代码部署到  <code>GitHub</code></li>
 </ol>
-<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>hexo clean <span class="token operator">&amp;&amp;</span> hexo generate <span class="token operator">&amp;&amp;</span> hexo deploy</pre></td></tr><tr><td data-num="2"></td><td><pre>hexo clean <span class="token operator">&amp;&amp;</span> hexo g <span class="token operator">&amp;&amp;</span> hexo d <span class="token comment">#缩写</span></pre></td></tr></table></figure><p>在  <code>GitHub</code>  选择你的项目仓库，点击  <code>Settings</code>   选择左边的 <code>Pages</code>   这里的 <code>GitHub Pages</code>  会自动给你部署一个站点，供所有人访问</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>hexo clean <span class="token operator">&amp;&amp;</span> hexo generate <span class="token operator">&amp;&amp;</span> hexo deploy</pre></td></tr><tr><td data-num="2"></td><td><pre>hexo clean <span class="token operator">&amp;&amp;</span> hexo g <span class="token operator">&amp;&amp;</span> hexo d <span class="token comment">#缩写</span></pre></td></tr></table></figure><ol start="4">
+<li>在  <code>GitHub</code>  选择你的项目仓库，点击  <code>Settings</code>   选择左边的 <code>Pages</code>   这里的 <code>GitHub Pages</code>  会自动给你部署一个站点，供所有人访问</li>
+</ol>
+<p><img data-src="https://image.chinoaider.tk/article/hexo/init/202304181736065.png" alt="" /></p>
+<p>至此，Hexo 博客基础搭建完成～🎉</p>
 
       <div class="tags">
           <a href="/tags/Hexo/" rel="tag"><i class="ic i-tag"></i> Hexo</a>
@@ -288,7 +298,7 @@ Blue Forest = 小森のBlog</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2023-04-16 15:21:14" itemprop="dateModified" datetime="2023-04-16T15:21:14+08:00">2023-04-16</time>
+    <time title="修改时间：2023-04-18 17:43:45" itemprop="dateModified" datetime="2023-04-18T17:43:45+08:00">2023-04-18</time>
   </span>
   <span id="computer-science/hexo/document/init/" class="item leancloud_visitors" data-flag-title="Hexo博客基础搭建" title="阅读次数">
       <span class="icon">
@@ -346,7 +356,7 @@ Blue Forest = 小森のBlog</title>
     <div class="item left">
       
 
-  <a href="/computer-science/hexo/document/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;image.chinoaider.tk&#x2F;img&#x2F;202304101808901.webp" title="一切都从这里开始">
+  <a href="/computer-science/hexo/document/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;image.chinoaider.tk&#x2F;img&#x2F;202304101808892.webp" title="一切都从这里开始">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> 笔记</span>
   <h3>一切都从这里开始</h3>
@@ -356,7 +366,7 @@ Blue Forest = 小森のBlog</title>
     <div class="item right">
       
 
-  <a href="/computer-science/hexo/document/theme/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;image.chinoaider.tk&#x2F;img&#x2F;202304101808816.webp" title="Hexo博客主题更换">
+  <a href="/computer-science/hexo/document/theme/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;image.chinoaider.tk&#x2F;img&#x2F;202304101808864.webp" title="Hexo博客主题更换">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> 笔记</span>
   <h3>Hexo博客主题更换</h3>
@@ -378,7 +388,7 @@ Blue Forest = 小森のBlog</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-number">1.</span> <span class="toc-text"> 准备工作</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%9B%E5%BB%BAgithub%E4%BB%93%E5%BA%93"><span class="toc-number">2.</span> <span class="toc-text"> 创建 GitHub 仓库</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEgit"><span class="toc-number">3.</span> <span class="toc-text"> 配置 Git</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%94%9F%E6%88%90%E9%85%8D%E7%BD%AEssh%E5%85%AC%E9%92%A5"><span class="toc-number">4.</span> <span class="toc-text"> 生成配置 ssh 公钥</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E5%88%9D%E5%A7%8B%E5%8C%96hexo%E9%A1%B9%E7%9B%AE"><span class="toc-number">5.</span> <span class="toc-text"> 安装初始化 Hexo 项目</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B0%86%E9%A1%B9%E7%9B%AE%E6%8C%82%E8%BD%BD%E5%88%B0github"><span class="toc-number">6.</span> <span class="toc-text"> 将项目挂载到 GitHub</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-number">1.</span> <span class="toc-text"> 准备工作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-nodejs-%E7%8E%AF%E5%A2%83"><span class="toc-number">1.1.</span> <span class="toc-text"> 安装 Node.js 环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%A8%E5%86%8C-github-%E8%B4%A6%E6%88%B7"><span class="toc-number">1.2.</span> <span class="toc-text"> 注册  GitHub 账户</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-git-%E7%BB%88%E7%AB%AF"><span class="toc-number">1.3.</span> <span class="toc-text"> 安装 Git 终端</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%88%9B%E5%BB%BAgithub%E4%BB%93%E5%BA%93"><span class="toc-number">2.</span> <span class="toc-text"> 创建 GitHub 仓库</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEgit"><span class="toc-number">3.</span> <span class="toc-text"> 配置 Git</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%94%9F%E6%88%90%E9%85%8D%E7%BD%AEssh%E5%85%AC%E9%92%A5"><span class="toc-number">4.</span> <span class="toc-text"> 生成配置 ssh 公钥</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E5%88%9D%E5%A7%8B%E5%8C%96hexo%E9%A1%B9%E7%9B%AE"><span class="toc-number">5.</span> <span class="toc-text"> 安装初始化 Hexo 项目</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B0%86%E9%A1%B9%E7%9B%AE%E6%8C%82%E8%BD%BD%E5%88%B0github"><span class="toc-number">6.</span> <span class="toc-text"> 将项目挂载到 GitHub</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
         <ul>
@@ -488,6 +498,18 @@ Blue Forest = 小森のBlog</title>
 <a href="/categories/Hexo/%E7%AC%94%E8%AE%B0/" title="分类于 笔记">笔记</a>
 </div>
 
+    <span><a href="/computer-science/hexo/document/theme/" title="Hexo博客主题更换">Hexo博客主题更换</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Hexo/" title="分类于 Hexo">Hexo</a>
+<i class="ic i-angle-right"></i>
+<a href="/categories/Hexo/%E7%AC%94%E8%AE%B0/" title="分类于 笔记">笔记</a>
+</div>
+
     <span><a href="/computer-science/hexo/document/init/" title="Hexo博客基础搭建">Hexo博客基础搭建</a></span>
   </li>
 
@@ -501,18 +523,6 @@ Blue Forest = 小森のBlog</title>
 </div>
 
     <span><a href="/computer-science/hexo/document/" title="一切都从这里开始">一切都从这里开始</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-<a href="/categories/Hexo/" title="分类于 Hexo">Hexo</a>
-<i class="ic i-angle-right"></i>
-<a href="/categories/Hexo/%E7%AC%94%E8%AE%B0/" title="分类于 笔记">笔记</a>
-</div>
-
-    <span><a href="/computer-science/hexo/document/theme/" title="Hexo博客主题更换">Hexo博客主题更换</a></span>
   </li>
 
   </ul>
@@ -537,13 +547,13 @@ Blue Forest = 小森のBlog</title>
     <span class="post-meta-item-icon">
       <i class="ic i-chart-area"></i>
     </span>
-    <span title="站点总字数">3k 字</span>
+    <span title="站点总字数">4k 字</span>
 
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="站点阅读时长">2 分钟</span>
+    <span title="站点阅读时长">3 分钟</span>
   </div>
   <div class="powered-by">
     基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
