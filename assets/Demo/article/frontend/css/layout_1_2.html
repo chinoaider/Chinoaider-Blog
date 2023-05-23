@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>圣杯布局</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-width: 600px;
+    }
+
+    #header,
+    #footer {
+      text-align: center;
+      border: 1px solid rgb(0, 0, 0);
+      background-color: rgb(157, 157, 157);
+    }
+
+    #container {
+      padding: 0 200px;
+      overflow: hidden;
+    }
+
+    #container #middle {
+      background: rgb(92, 110, 215);
+      width: 100%;
+      float: left;
+    }
+
+    #container #left {
+      position: relative;
+      width: 200px;
+      background: rgb(220, 116, 243);
+      float: left;
+      left: -200px;
+      margin-left: -100%;
+    }
+
+    #container #right {
+      position: relative;
+      float: left;
+      width: 200px;
+      background: rgb(220, 116, 243);
+      right: -200px;
+      margin-left: -200px;
+    }
+
+    /* 等高布局 */
+    #container #right,
+    #container #left,
+    #container #middle {
+      text-align: center;
+      line-height: 300px;
+      height: 300px;
+    }
+
+    /* 清除浮动 */
+    .clearfix {
+      *zoom: 1;
+    }
+
+    .clearfix:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">header</div>
+  <div id="container" class="clearfix">
+    <div id="middle">
+      middle
+    </div>
+    <div id="left">
+      left
+    </div>
+    <div id="right">
+      right
+    </div>
+
+  </div>
+  <div id="footer">footer</div>
+</body>
+
+</html>

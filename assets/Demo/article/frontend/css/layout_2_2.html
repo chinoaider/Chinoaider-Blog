@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>双飞翼布局</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    min-width: 600px;
+  }
+
+  /* 等高布局 */
+  #container .middle,
+  #container .left,
+  #container .right {
+    height: 300px;
+    float: left;
+    line-height: 300px;
+    text-align: center;
+  }
+
+  /* 头部尾部布局 */
+  #header,
+  #footer {
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(141, 141, 141);
+    text-align: center;
+  }
+
+  /* 双飞翼布局 */
+  #container {
+    overflow: hidden;
+  }
+
+  #container .middle {
+    background-color: rgb(49, 62, 148);
+    width: 100%;
+  }
+
+  #container .middle .inner {
+    padding: 0 200px;
+  }
+
+  #container .left,
+  #container .right {
+    background-color: rgb(93, 177, 225);
+    width: 200px;
+  }
+
+  #container .left {
+    margin-left: -100%;
+  }
+
+  #container .right {
+    margin-left: -200px;
+  }
+
+    /* 清除浮动 */
+    .clearfix {
+      *zoom: 1;
+    }
+
+    .clearfix:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+</style>
+
+<body>
+  <div id="header">header</div>
+  <div id="container" class="clearfix">
+    <div class="middle">
+      <div class="inner">
+        middle
+      </div>
+    </div>
+    <div class="left">
+      left
+    </div>
+    <div class="right">
+      right
+    </div>
+  </div>
+  <div id="footer">footer</div>
+</body>
+
+</html>
